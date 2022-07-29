@@ -22,6 +22,9 @@ Each project folder should contain the following
 ```shell
 # $1 for the data directory, $2 for the output .ply name, $3 for the fusion method.
 python3 fuse/fuse_depth.py --dense_folder $1 --name $2 --fusion mvs
+
+# Demo
+python3 fuse/fuse_depth.py --dense_folder dtu/scan1 --name scan1 --fusion mvs
 ```
 
 ## TODO
