@@ -47,15 +47,15 @@ parser.add_argument("--thres_view",
                     default=5,
                     help="threshold of num view")
 
-# filter by gimupa
-parser.add_argument("--fusibile_exe_path",
-                    type=str,
-                    default="../fusibile/fusibile")
-parser.add_argument("--prob_threshold", type=float, default="0.9")
-parser.add_argument("--disp_threshold", type=float, default="0.25")
-parser.add_argument("--num_consistent", type=float, default="4")
+# # filter by gimupa
+# parser.add_argument("--fusibile_exe_path",
+#                     type=str,
+#                     default="../fusibile/fusibile")
+# parser.add_argument("--prob_threshold", type=float, default="0.9")
+# parser.add_argument("--disp_threshold", type=float, default="0.25")
+# parser.add_argument("--num_consistent", type=float, default="4")
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # parse arguments and check
 args = parser.parse_args()
