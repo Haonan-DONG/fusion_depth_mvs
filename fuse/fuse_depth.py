@@ -6,6 +6,8 @@ from PIL import Image
 
 from data_io import read_pfm, save_pfm
 
+mathematics_pytorch_tutorial
+
 from multiprocessing import Pool
 from functools import partial
 import signal

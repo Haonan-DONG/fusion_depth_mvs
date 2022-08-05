@@ -28,6 +28,7 @@ python3 fuse/fuse_depth.py --dense_folder dtu/scan1 --name scan1 --fusion mvs
 ```
 
 ## TODO
+- [√] Upload demo data and expected result.
 - [ ] Visualization for .pfm
 - [ ] Support RGB-D sequence from sensor like Intel RealSense.
 
