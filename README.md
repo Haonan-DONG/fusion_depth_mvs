@@ -16,7 +16,11 @@ Each project folder should contain the following
 ├── cams                   
 │   ├── 00000000_cam.txt   
 │   ├── 00000001_cam.txt   
-│   └── ...                
+│   └── ...             
+├── depth                   
+│   ├── 00000000.pfm   
+│   ├── 00000001.pfm   
+│   └── ...       
 └── pair.txt               
 ```
 
