@@ -2,6 +2,8 @@
 This repo aims to fuse RGB-D data from sensor or MVS pipelines.
 
 ## Data Format
+
+### DTU
 You can test our code in [DTU](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view) dataset, where the link is from [MVSNet](https://github.com/YoYo000/MVSNet).
 
 Each project folder should contain the following
@@ -18,6 +20,7 @@ Each project folder should contain the following
 └── pair.txt               
 ```
 
+### Demo RGB-D Data
 You can download the demo data at [demo](https://drive.google.com/file/d/1wRDZq8DVsCTHvC_MVy0_VlFfoD8oxFLX/view?usp=sharing), which is taken from the iPad-Pro.
 
 ## Useage
