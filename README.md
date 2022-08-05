@@ -18,6 +18,8 @@ Each project folder should contain the following
 └── pair.txt               
 ```
 
+You can download the demo data at [demo](https://drive.google.com/file/d/1wRDZq8DVsCTHvC_MVy0_VlFfoD8oxFLX/view?usp=sharing), which is taken from the ipad-pro.
+
 ## Useage
 ```shell
 # $1 for the data directory, $2 for the output .ply name, $3 for the fusion method.
@@ -28,7 +30,7 @@ python3 fuse/fuse_depth.py --dense_folder dtu/scan1 --name scan1 --fusion mvs
 ```
 
 ## TODO
-- [√] Upload demo data and expected result.
+- [-] Upload demo data and expected result.
 - [ ] Visualization for .pfm
 - [ ] Support RGB-D sequence from sensor like Intel RealSense.
 
